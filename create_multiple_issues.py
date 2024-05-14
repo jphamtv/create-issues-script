@@ -3,7 +3,7 @@ import subprocess
 # Script for quickly creating issues
 # Run file with 'python create-multiple-issues.py' using GH CLI
 
-repo = "jphamtv/hackforla-website"
+repo = "your-username/your-repository"
 
 # Create 1 Prework Checklist issue
 for i in range(1):
