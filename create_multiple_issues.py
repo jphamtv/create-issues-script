@@ -7,8 +7,8 @@ repo = "your-username/your-repository"
 
 # Create 1 Prework Checklist issue
 for i in range(1):
-    title = "Pre-work Checklist: Developer: Test"
-    description = "This is a checklist."
+    title = "Skills Issue: Developer: Test"
+    description = "This is a skills checklist."
     labels = "Complexity: Prework,role: front end,role: back end/devOps,size: 1pt"
     command = f'gh issue create --repo {repo} --title "{title}" --body "{description}" --label "{labels}"'
     print(f"Executing: {command}")
